@@ -1,1 +1,1 @@
-# <p align='center'> stylehub </p>
+# <p align='center'> StyleHub APP </p>
