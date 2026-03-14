@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import 'package:stylehub/features/home/presentation/authentication/signup/presentation/signup_screen.dart';
 import 'package:stylehub/features/home/presentation/home_screen.dart';
 
 final appRouterProvider = Provider<GoRouter>((ref) {
@@ -14,6 +15,7 @@ final appRouterProvider = Provider<GoRouter>((ref) {
     initialLocation: '/',
     routes: [
       GoRoute(path: '/', builder: (_, _) => const HomeScreen()),
+      GoRoute(path: '/signup', builder: (_, _) => const SignUpScreen()),
       GoRoute(path: '/home', builder: (_, _) => const HomeScreen()),
     ],
   );
