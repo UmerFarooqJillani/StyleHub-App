@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156085112667",
+    "project_id": "stylehub-sss-assessment",
+    "storage_bucket": "stylehub-sss-assessment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156085112667:android:77098cb76cfb782258947e",
+        "android_client_info": {
+          "package_name": "com.example.stylehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH6BBleXvwe3u6bcjBo32uu_qS5_5m5kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
